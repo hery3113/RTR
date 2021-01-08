@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ricetron</title>
+    <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="cdn-cgi/apps/head/oOOzFCtDtCdzyyh6BOjKe-mqmlA.js"></script><link rel="icon" type="image/png" href="template/favicon-1.png">
+    <link type="text/css" href="template/css/main21a4.css?v2.6" rel="stylesheet">
+    <link type="text/css" href="template/css/media.css" rel="stylesheet">
+    <script type="text/javascript" src="template/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="template/js/main2c58.js?1610026059"></script>
+	<script type="text/javascript" src="template/js/tronweb.js"></script>
+	
+  <script src="../cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "bc593c8f-d5c2-4db8-b094-7bedaabced37",
+      });
+    });
+  </script>
+	
+    <script src="../cdn.jsdelivr.net/npm/clipboard%402.0.6/dist/clipboard.min.js"></script>
+
+</head>
+<body>
+
+
+<!--header-->
+<div class="header">
+    <div class="container justify-content-between">
+        <div class="left d-flex">
+            <a href="index.html" class="logo"></a>
+        </div>
+        <div class="right d-flex">
+            <a class="connect js-login-button" href="#" onclick="javacript:popup('#pinfo');return false;" data-default-title="Connect Wallet">Connect Wallet</a>
+            <a id="tg" class="en" href="https://t.me/" target="_BLANK"></a>
+        </div>
+    </div>
+</div>
+<!--/header-->
+
+<!--navigate-->
+
+<div class="navigate">
+    <div class="container nav1">
+        <a href="#" class="burger"><span><i><i></i></i><i></i></span>Navigate</a>
+    </div>
+    <div class="container nav2">
+        <a href="#top" class="active">Home</a>
+        <a href="#about">About RiceTron</a>
+        <a href="#invest">Investment Package</a>
+        <a href="#depo" class="dplink"> Deposit</a>
+    </div>
+</div>
+<!--/navigate-->
+
+
+
+<!--about-->
+<div id="about" class="about">
+    <div class="container">
+        <div class="left">
+            <div class="title">
+                <span>Rice Tron</span> Smart-Contract<br/>
+                Based on TRON
+            </div>
+            <div class="text">Ricetron is a DeFi staking platform on TRON blockchain designed for minting RET (RICE ECONOMY TOKEN) token, a governance token for Rice Stable coin. Created spesifically to strenghen Indonesia's food security.</div>
+            <div class="av">
+                <div class="line f">
+                    <div class="icon">
+                        <div class="image"><img src="template/images/av-1.svg"/></div>
+                        <div class="name">Audited by GROX Solutions</div>
+                        <div class="link"><a href="#" target="_BLANK">Check PDF</a></div>
+                        <div class="text">Independent Audit Company</div>
+                    </div>
+                    <div class="icon">
+                        <div class="image"><img src="template/images/av-5.svg"/></div>
+                        <div class="name">Cloudflare DDoS Protection </div>
+                        <!--div class="link"><a href="#">Check PDF</a></div-->
+                        <div class="text">Comprehensive DDoS Protection. Built for anything connected to the Internet.</div>
+                    </div>
+                </div>
+                <div class="line t">
+                    <div class="icon">
+                        <div class="image"><img src="template/images/av-3.svg"/></div>
+                        <div class="name"> Long Term Project</div>
+                        <div class="text">Decentralized, community-based</div>
+                    </div>
+                    <div class="icon">
+                        <div class="image"><img src="template/images/av-4.svg"/></div>
+                        <div class="name">Top Grade Security</div>
+                        <div class="text">Sagest Investment Company</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="title">Interest Calculator</div>
+                    <div class="h">Hourly <br/>Payments</div>
+                </div>
+                <div class="inp d-flex justify-content-between">
+                    <div class="input">
+                        <label>Your Deposit</label>
+                        <div class="d-flex justify-content-between">
+                            <div class="i"><input type="text" class="js-calc" placeholder="0" data-current-bonus="0.0" data-base-bonus="5" value="1000" /></div>
+                            <div class="current"><span class="js-current-bonus">5%</span><i>Current profit</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="results">
+                    <div class="d-flex">
+                        <div class="r r1">
+                            <span class="js-calc-amount">0<small>TRX</small></span>
+                            Deposit Amount
+                        </div>
+                        <div class="r r2">
+                            <span class="js-calc-amount-hourly">0<small>TRX</small></span>
+                            Currently hourly profit<br/>
+                            <small>(Maximum profit 250%)</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="d-flex justify-content-between">
+                        <div class="l">
+                            <div class="o js-calc-amount">100.00 <small>TRX</small></div>
+                            <div class="t">
+                                ROI Reached in<br/>
+                                <small class="js-replace-roi">x days</small>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#" onclick="javacript:popup('#make');return false;">Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ii">
+                    RiceTron is a decentralized, community-based, 100% fair, and smart contract-verified investment platform. It’s also the safest investment platform available.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/about-->
+
+<!--why-->
+<!-- <div class="why">
+    <div class="container">
+        <div class="title">Why Earn with <span>TronProm</span></div>
+    </div>
+    <div class="container">
+        <div class="blocks">
+            <div class="block">
+                <div class="icon"><img src="template/images/why-1.svg"/></div>
+                <div class="text">TronProm isn’t run by a human, CEO, or company — it runs exclusively on a blockchain. Once uploaded, it can’t be edited by anyone — no company or individ-ual has any control over the funds and distribution, which means it’s made entirely for the people. Continue reading to see how TronProm guarantees returns.</div>
+            </div>
+            <div class="block">
+                <div class="icon"><img src="template/images/why-2.svg"/></div>
+                <div class="text">TronProm has a 3-level referral program and a daily automated referral contest that guarantee a stable income. Your AI project’s exposure increases as more people joinTronProm, leading to increased advertisement revenues. TronProm is a decentralized, community-based, and smart contract-verified investment platform — its growth benefits you directly.</div>
+            </div>
+            <div class="block">
+                <div class="icon"><img src="template/images/why-3.svg"/></div>
+                <div class="text">Once the TronProm smart-contract is published on the TRX blockchain, it can’t be modified by any individual or administrative body. Participants can rest assured thattheir funds are perfectly secure. Our smart-contract code is transparent — anyone can verify our platform’s honesty and integrity.</div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--/why-->
+
+
+
+<!--invest conditions-->
+<div class="ic" id="invest">
+    <div class="container d-block">
+        <div class="title">Investment Conditions</div>
+        <div class="text">The RiceTron platform has been designed for optimal stability and profitability. For every 1 million TRX on a smart contract balance, the system will automatically add 0.1% on all user earnings. As such, if the TRX smart contract balance is 10 million, the users total daily profit will be 1% or more. Basically, your earnings increase with the project’s popularity.</div>
+    </div>
+    <div class="container c2">
+        <div class="left">
+            <div class="text">The following is a detailed overview of our investment plans and conditions</div>
+            <div class="d-flex justify-content-between">
+                <div class="l b">
+                    <div class="ico">Hourly Payments</div>
+                    <div class="t">5% Daily</div>
+                    <div class="tt">Maximum contract profit 250% Current profit (Profit % per hour)</div>
+                    <div class="if">
+                        <div>Minimum<span>100 TRX</span></div>
+                        <div>Maximum<span>Unlimited</span></div>
+                    </div>
+                </div>
+                <div class="r b">
+                    <div class="ico">Hourly Payments</div>
+                    <div class="t">Current Daily <span class="js-current-bonus">5%</span></div>
+                    <div class="tt js-trx-upgrade">More balance TRX needed<br/>till Daily % change</div>
+                    <div class="if">
+                        <div>Full information<span class="i"><span><span>This is the current contract balance. Above, we’ve shown how much more we need to increase the daily profit by another 0.1%.</span></span></span></div>
+                        <div>Contract Balance  <span class='js-contract-balance-trx'>0 TRX</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="key"><a href="#depo" class="dplink">Get Started Now</a></div>
+        </div>
+        <div class="right">
+            <div class="line">
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-1.svg"/></div>
+                    <div class="t">Personal Hold-Bonus:</div>
+                    <div class="tt">+0.1% per 24 hours<small> without withdrawal</small></div>
+                </div>
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-2.svg"/></div>
+                    <div class="t">Total Profit:</div>
+                    <div class="tt">250%<small>(deposit included)</small></div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-3.svg"/></div>
+                    <div class="t">Minimum Deposit:</div>
+                    <div class="tt">100 TRX</div>
+                </div>
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-4.svg"/></div>
+                    <div class="t">Maximum Deposit:</div>
+                    <div class="tt">Unlimited</div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-5.svg"/></div>
+                    <div class="t">Earnings in realtime</div>
+                </div>
+                <div class="b">
+                    <div class="ico"><img src="template/images/ic-ico-6.svg"/></div>
+                    <div class="t">Withdraw anytime</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/invest conditions-->
+
+
+<!--deposit-->
+<div class="deposit" id="depo">
+    <div class="container d-block">
+        <div class="title">How To Make Deposit?</div>
+        <div class="n"><span>Make Deposit</span></div>
+        <div class="d-flex justify-content-between">
+            <div class="info">
+                <div class="t">GET  TRON (TRX)</div>
+                <div class="text">
+                We recommend to use: TronLink / TronMask browsers extensions, or TronWallet mobile apps.
+                <br/><br/>
+                You can get TRX coins via popular exchangers.
+                </div>
+                <div class="key"><a href="#" onclick="javacript:popup('#pinfo');return false;">How to get TRX<span></span></a></div>
+            </div>
+            <div class="info">
+                <div class="t">SEND TRX TO OUR <br/>SMART-CONTRACT</div>
+                <div class="text">
+                    Send TRX coins (of any amount) to our smart contract address to receive regular earnings.
+                    <br/><br/>
+                    <ul>
+                        <li><span>Minimum deposit:</span><span class="blue">100 TRX</span></li>
+                        <li><span>Maximum amount:</span><span class="blue">Unlimited</span></li>
+                    </ul>
+                </div>
+                <div class="key"><a href="#" onclick="javacript:popup('#make');return false;">Make Deposit</a></div>
+            </div>
+            <div class="action">
+                <div class="tt">Specify deposit TRX amount here::</div>
+                <div class="connect">Connect with your wallet app</div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="d-flex justify-content-between">
+                <div class="block">
+                    <div class="n"><span>Wallet</span></div>
+                    <div class="action">
+                        <div class="tt">Specify deposit TRX amount here::</div>
+                        <div class="connect">Connect with your wallet app</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="n"><span>Request Withdraw</span></div>
+                    <div class="action">
+                        <div class="tt">Specify deposit TRX amount here::</div>
+                        <div class="connect">Connect with your wallet app</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="a-info">
+            <div class="d-flex justify-content-between">
+                <div class="block">
+                    <div class="t">GET YOUR  TRX EVERY SECOND</div>
+                    You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
+                    <br/><br/>
+                    <b>Additional earnings with referral program:</b><br/>
+                    3 levels of affiliate rewards <span class="blue">5% - 3% - 1%</span><br/>
+                    Referral rewards comes instantly on your wallet balance and can be withdrawn any time along with earnings.
+                </div>
+                <div class="block">
+                    <div class="t">REQUEST TRX WITHDRAW</div>
+                    <ul>
+                        <li>Your payout will come instantly</li>
+                        <li>Request withdraw from the same wallet you deposited</li>
+                        <li>All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/deposit-->
+<!--deposit-->
+<div class="deposit" id="depo-logged" style="display:none;">
+    <div class="container d-block">
+        <div class="title">How To Make Deposit?</div>
+        <div class="n"><i>1</i><span>Make Deposit</span></div>
+        <div class="d-flex justify-content-between">
+            <div class="info">
+                <div class="t">GET  TRON (TRX)</div>
+                <div class="text">
+                We recommend to use: TronLink / TronMask browsers extensions, or TronWallet / Banko mobile apps.
+                <br/><br/>
+                You can get TRX coins via popular exchangers.
+                </div>
+                <div class="key"><a href="#" onclick="javacript:popup('#pinfo');return false;">How to get TRX<span></span></a></div>
+            </div>
+            <div class="info">
+                <div class="t">SEND TRX TO OUR <br/>SMART-CONTRACT</div>
+                <div class="text">
+                    Send TRX coins (of any amount) to our smart contract address to receive regular earnings.
+                    <br/><br/>
+                    <ul>
+                        <li><span>Minimum deposit:</span><span class="blue">100 TRX</span></li>
+                        <li><span>Maximum amount:</span><span class="blue">Unlimited</span></li>
+                    </ul>
+                </div>
+                <div class="key"><a href="#" onclick="javacript:popup('#make');return false;">Make Deposit</a></div>
+            </div>
+            <div class="action">
+                <div class="tt">Specify deposit TRX amount here:</div>
+                <div class="form">
+                    <label>You're TRX Wallet Address</label>
+                    <div class="input">
+                        <input type="text" class='js-deposit-amount' placeholder="0" value="0"/><span>TRX</span>
+                    </div>
+                    <div class="pd">Minimal deposit amount is 100 TRX</div>
+                    <input type="submit" class='js-deposit-button' value="Make Deposit"/>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="d-flex justify-content-between">
+                <div class="block">
+                    <div class="n"><i>2</i><span>Make Deposit</span></div>
+                    <div class="action">
+                        <div class="tt">Your TRX wallet address:</div>
+                        <div class="wl">
+                            Your TRX wallet address:
+                            <span class="js-investor-wallet"></span>
+                            <div class="keys">
+                                <!--a href="javascript:return false;" data-clipboard-text=""  class="copy">Copy Wallet</a-->
+                                <a class="js-copy-title" href="#" onclick="javacript:popup('#wallet');return false;" style="border-right:0px;">Wallet Statistics</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="n"><i>3</i><span>Request Withdraw</span></div>
+                    <div class="action">
+                        <div class="tt">Your TRX wallet address:</div>
+                        <div class="wl">
+                            Your TRX wallet address:
+                            <span class="js-investor-wallet"></span>
+                            <div class="key">
+                                <a href="#" onclick="javacript:popup('#wallet');return false;">Withdraw money</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="a-info">
+            <div class="d-flex justify-content-between">
+                <div class="block">
+                    <div class="t">GET YOUR  TRX EVERY SECOND</div>
+                    You can check all your wallet information, including your deposits, earnings, withdraw and referral statistics in real time.
+                    <br/><br/>
+                    <b>Additional earnings with referral program:</b><br/>
+                    3 levels of affiliate rewards: <span class="blue">5% - 3% - 1%</span><br/>
+                    Referral rewards comes instantly on your wallet balance and can be withdrawn any time along with earnings.
+                </div>
+                <div class="block">
+                    <div class="t">REQUEST TRX WITHDRAW</div>
+                    <ul>
+                        <li>Your payout will come instantly</li>
+                        <li>Request withdraw from the same wallet you deposited</li>
+                        <li>All your wallet deposits and referral earnings will be withdrawn with single transaction per 1 request</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/deposit-->
+
+<!--footer-->
+<div class="footer">
+    <div class="container d-block">
+        <div class="first">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between left">
+                    <div class="copyright">© 2020. All Rights Reserved.</div>
+                    <div class="adress">Smart-Contract Address:<span class='js-smart-contract-addr'>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/footer-->
+</div>
+
+
+
+<!--popups-->
+
+
+
+<!--make-->
+<div class="popup" id="make">
+    <div class="title">
+        <span>MAKE NEW DEPOSIT</span>
+        <a href="javascript:closex();" class="closex"></a>
+    </div>
+    <div class="content">
+        <div class="form">
+            <label>You’ll Deposit</label>
+            <div class="input">
+                <input type="text" class='js-deposit-amountM' value="0" placeholder="0"/><span>TRX</span>
+            </div>
+            <div class="pd">Minimal deposit amount is 100 TRX</div>
+            <input type="submit" value="Make deposit" class='js-deposit-buttonM'/>
+        </div>
+        <div class="important">
+            <b>IMPORTANT:</b>
+            Do not forget about blockchain fee! You should have 2-5 TRX more on your wallet, or your transaction will get out of energy status!
+        </div>
+        <div class="info">
+            <ul>
+                <li>Minimal deposit amount: 100 TRX (no maximal limits)</li>
+                <li>We are working only with  TRON (TRX) cryptocurrency</li>
+                <li>Your deposit will be activated after 1 confirmation in blockchain</li>
+                <li>Earnings comes every moment on your wallet balance, you can withdraw it any time you want</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--/make-->
+
+<!--pingo-->
+<div class="popup" id="pinfo">
+    <div class="texttop">
+        
+        <a href="javascript:closex();" class="closex"></a>
+    </div>
+    <div class="full">
+        <div class="icon"><img src="template/images/pinfo-1.svg"/></div>
+        <div class="tt">How To Get TRX?</div>
+        <div class="text">You can easily acquire TRX from most popular cryptocurrency exchange platforms, like Binance, Indodax, Bitfinex, OKEx, etc. After purchasing TRX, you can transfer it to your personal wallet, and then transfer it to our smart-contract address.</div>
+        <div class="keys">
+            <a href="https://www.binance.com/en/" target="_BLANK">Binance</a>
+            <a href="https://indodax.com/" target="_BLANK">Indodax</a>
+        </div>
+        <div class="important">
+            <b>IMPORTANT:</b>
+            We are only working with personal wallets. Please don’t make deposits directly fromthe exchange platforms. If you do so, the payouts will be made to the exchange platform and not to your account - you will lose funds.
+            As such, whenever you want to send TRX payments to our smart-contract address, please route it through your personal wallet.
+        </div>
+    </div>
+    <div class="full f2">
+        <div class="icon"><img  style="margin-left: -10px;" src="template/images/pinfo-2.svg"/></div>
+        <div class="tt">Which Trx Personal Wallets To Use?</div>
+        <div class="text">You can use two types of wallets:</div>
+
+        <div class="lr d-flex justify-content-between">
+            <div class="l">
+                <span>Browser Extensions, like TronLink / TronPay:</span>
+                Install the extension on your favorite browser and create a personal wallet address.
+                <div class="keys">
+                    <a href="https://www.tronlink.org/" target="_BLANK">TronLink</a>
+                    <a href="https://tronpay.website/" target="_BLANK" class="blue">TronPay</a>
+                </div>
+            </div>
+            <div class="r">
+                <span>Mobile Crypto Wallets:</span>
+                Use any personal crypto wallet that supports TRX cryptocurrency and «TRON dapps» technology, like TronWallet, Banko, and oth-ers.
+                <div class="keys">
+                    <a href="https://tronwallet.me/" target="_BLANK">TronWallet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/pingo-->
+
+
+
+
+
+<!--wallet-->
+<div class="popup" id="wallet">
+    <div class="container-total">
+        <div class="wallet bb">
+            <div class="title"><span>Wallet Statistics</span><a style="display: none;" href="javascript:closex();" class="closex"></a></div>
+            <div class="content">
+                <div class="adress">
+                    <div class="a">
+                        <label>Your TRX wallet address:</label>
+                        <span class="js-investor-wallet"></span>
+                        <a href="#" data-clipboard-text="" class="copy"></a>
+                    </div>
+                    <div class="av">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="b">
+                                Available withdraw balance:
+                                <span class='js-balance-now'>0.00 <small>TRX</small></span>
+                            </div>
+                            <div class="key">
+                                <div class="hint"><span class="i"><span><span></span></span></span></div>
+                                <input type="submit" value="Request Withdraw" class="js-withdrawal"/>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stat">
+                    <span class="js-userPercent">+0%</span>
+                    Your current daily profit:
+                </div>
+                <div class="info">
+                    <div>Basic profit:<span class="js-basicPercent">+0.0%</span></div>
+                    <div>Hold-bonus:<span class="js-holdPercent">+0.0%</span></div>
+                    <div>Contract bonus:<span class="js-contractPercent">+0.0%</span></div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="content">
+                    <ul>
+                        <li>Total invested:<span class="js-userDeposited">0.00 <small>TRX</small></span></li>
+                        <li>Number of deposits:<span class="js-DepositsCount">0</span></li>
+                        <li>Last deposit date:<span class="js-DepositTime">N/A</span></li>
+                    </ul>
+                    <hr/>
+                    <ul>
+						<li><b>Excluding referral commission transactions</b></li>
+                        <li>Total earned:<span class="js-totalEarned">0.00 <small>TRX</small></span></li>
+                        <li>Total withdrawn:<span class="js-userWithdrawn">0.00 <small>TRX</small></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="refs bb">
+            <div class="title"><span>Referral Statistic</span><a href="javascript:closex();" class="closex"></a></div>
+            <div class="content">
+                <div class="link">
+                    <label>Your referral link:</label>
+                    <span class='js-ref-link'></span>
+                    <a href="#" data-clipboard-text="" class="copy js-ref-link-copy"></a>
+                </div>
+                <div class="link">
+                    <label>Upline</label>
+                    <span class='js-upline-link'></span>
+                </div>
+                <div class="reward">
+                    <label>Referral rewards:</label>
+                    <span class="js-referral-bonus">0.00 <small>TRX</small></span> <small>(Total</small> <span class="js-totalRefEarned">0.00 <small>TRX</small></span><small>)</small>
+                </div>
+                <!-- <div class="key"><a href="#" onclick="javacript:closex();popup('#promo');return false;">Promo Materials</a></div>
+                <div class="info">- - Share this link with your partners to get referral rewards<br/><br/>
+                    - - You should have active deposit to unlock affiliate bonuses! You will get no rewards without active
+                </div> -->
+            </div>
+            <div class="refs-table">
+                <div class="content">
+				<span><center><b style="font-weight:bold;">Active Referrals</b></center></span>
+                    <div class="ref lvl1">
+                        <div class="l">
+                            1 referral level:
+                        </div>
+                        <div class="r">
+                            <span class="js-reflvl-1" data-text="Users">0 Users</span>
+                        </div>
+                    </div>
+                    <div class="ref lvl2">
+                        <div class="l">
+                            2 referral level:
+                        </div>
+                        <div class="r">
+                            <span class="js-reflvl-2" data-text="Users">0 Users</span>
+                        </div>
+                    </div>
+                    <div class="ref lvl3">
+                        <div class="l">
+                            3 referral level:
+                        </div>
+                        <div class="r">
+                            <span class="js-reflvl-3" data-text="Users">0 Users</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/wallet-->
+<div id="bg-popup" onclick="javascript:closex();"></div>
+<!--/popups--><script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+	var contractAddress = "TM88Vztd5PWC76W8vksKPo1JguaCnPKbqG";
+	var referrerDefault = "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb";
+	var userReferrer = "";
+</script>
+<script type="text/javascript" src="template/js/app2c58.js?1610026059"></script>
+<div class="copied">Copied success!</div>
+</body>
+</html>	<!-- Global site tag (gtag.js) - Google Analytics -->
+	

@@ -1,0 +1,587 @@
+
+@media (max-width: 1200px) {
+
+    .top .course {
+        white-space: pre-wrap;
+        min-width: 260px;
+    }
+
+    .about .right:after {
+        display: none;
+    }
+
+    .ic .left .ico {
+        line-height: 24px;
+    }
+
+    .ic .left .t {
+        height: auto;
+    }
+
+    .ic .left .r .t span {
+        margin-left: 0;
+    }
+
+    .ic .left .if div span {
+        position: relative;
+        display: block;
+        font-size: 12px;
+    }
+
+    .ic .left .if div span.i {
+        position: absolute!important;
+    }
+
+    .code .left .line {
+        flex-wrap: wrap;
+    }
+
+    .code .left .line .f {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .code .left .text img {
+        display: none;
+    }
+
+    .code .left .text {
+        padding-left: 0;
+    }
+
+    #wallet.popup {
+        width: 1100px;
+        margin-left: -550px;
+    }
+    .about .left .line .icon {
+        width: 42%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+
+    .about .left .line .icon {
+        width: 47%;
+    }
+
+    .top .container {
+        flex-wrap: wrap;
+    }
+
+    .top .tx {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header .container {
+        flex-wrap: wrap;
+    }
+
+    .header .right {
+        margin-top: 15px;
+    }
+
+    .header .left,
+    .header .right {
+        width: 100%;
+    }
+
+    .header .right:before {
+        display: none;
+    }
+
+    .navigate .nav2 a  {
+        margin-right: 30px;
+    }
+
+    .about .container,
+    .ic .container,
+    .code .container {
+        flex-wrap: wrap;
+    }
+
+    .about .left,
+    .about .right,
+    .ic  .left,
+    .ic  .right,
+    .code  .left,
+    .code  .right {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .about .left .av {
+        margin-top: 110px;
+    }
+
+    .why .block {
+        width: 32%;
+    }
+
+    .ic .c2:after {
+        display: none;
+    }
+
+    .ic .container .right {
+        margin-top: 85px;
+    }
+
+    .code .left .text {
+        min-height: auto;
+    }
+
+    .code .right .form {
+        margin-top: 0;
+    }
+
+    .code .right {
+        margin-top: 50px;
+    }
+
+    .code {
+        padding-bottom: 100px;
+    }
+
+    .distribution .progres .info .t {
+        white-space: pre-wrap;
+    }
+
+    .deposit .d-flex {
+flex-wrap: wrap;
+    }
+
+    .deposit .info, .deposit .action,.deposit .actions .block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .contacts .list .block {
+        width: 49%;
+    }
+
+    .footer .first .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .footer .first .email:after{
+        display: none;
+    }
+
+    .deposit .info .t br {
+        display: none;
+    }
+
+    #wallet.popup {
+        width: 96%;
+        margin-left: 0;
+        left:2%;
+    }
+
+    #wallet .container-total {
+        flex-wrap: wrap;
+    }
+
+    #wallet .bb {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .about .container:after {
+        opacity: 0.3;
+    }
+
+    #wallet .closex {
+        display: block!important;
+    }
+
+
+    .code .left .line
+    {
+        position: relative;
+        z-index: 55;
+        flex-wrap: nowrap;
+    }
+    .code .left .line .f {
+        width: 50%;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .popup {
+        left:2%;
+        width: 96% !important;
+        margin-left: 0!important;
+    }
+
+    .navigate .nav2 a {
+        margin-right: 0;
+        display: block;
+    }
+
+    .nav1
+    {
+        margin-bottom: 35px;
+        display: block;
+    }
+
+    .nav2 {
+        flex-wrap: wrap;
+    }
+
+    .navigate .nav2 a {
+        font-size: 14px;
+    }
+
+
+    .why .blocks {
+        flex-wrap: wrap;
+    }
+
+    .why .blocks .block {
+        width: 100%;
+   margin-bottom: 150px;
+    }
+
+    .why .blocks {
+        margin-bottom: 0;
+    }
+
+    .distribution .progres .info span.i {
+        margin-right: 8px;
+    }
+
+    .deposit .a-info .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .deposit .a-info .d-flex .block,
+    .contacts .list .block{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .nav2 {
+        margin-top: -10px;
+        display: none;
+
+        background: #fff;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .navigate .container {
+        flex-wrap: wrap;
+    }
+
+    .navigate .nav2 a {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .navigate .nav2 a:before {
+        display: none;
+    }
+
+    .navigate {
+        margin-bottom: 20px;
+    }
+
+    .footer .first .copyright {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .footer .first .adress {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .code .right {
+        min-width: 100%;
+    }
+
+    #wallet .wallet .adress .a {
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .deposit .actions .action {
+        text-align: center;
+    }
+
+    .action .wl {
+        background: url(../images/pinfo-2.svg) no-repeat top center;
+    }
+
+    .ic .container .right {
+        padding-right: 15px;
+    }
+
+    .about .right .white .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .about .right .white .h {
+        width: 100%;
+    }
+
+    .about .right .h br {
+        display: none;
+    }
+
+    .header .left {
+        flex-wrap: wrap;
+    }
+
+    .header .lang {
+        width: 100%;
+        margin-top: 19px;
+    }
+
+    #pinfo .lr {
+        flex-wrap: wrap;
+    }
+
+    #pinfo .lr .l,
+    #pinfo .lr .r {
+        width: 100%;
+    }
+
+    #pinfo .lr:after {
+        display: none;
+    }
+
+    #pinfo .lr .r {
+        margin-top: 20px;
+    }
+
+    #pinfo {
+        padding: 30px;
+    }
+    #wallet .wallet .adress .av .d-flex{
+        flex-wrap: wrap;
+    }
+
+    #wallet .wallet .adress .b {
+        margin-bottom: 15px;
+    }
+
+    #pinfo .full.f2 {
+        margin-left: -30px;
+        margin-right: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .popup .title {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 27px;
+        margin-bottom: 23px;
+    }
+
+    #wallet .wallet .info {
+        flex-wrap: wrap;
+    }
+
+    #wallet .wallet .info div {
+        width: 100%;
+    }
+
+    #promo .tabs {
+        padding-left: 6px;
+    }
+    .popup .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #make .important {
+
+        margin-left: -30px;
+        margin-right: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    #promo .tabs,
+    #promo .banner .d-flex{
+        flex-wrap: wrap;
+    }
+
+    #promo .tabs a {
+        width: 100%;
+    }
+
+    #promo .banner .key {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .about .right .results .r1 {
+        margin-right: 40px;
+    }
+
+    .about .right .input .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .about .right .input .current {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer .two .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .footer .two span {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .footer .two a {
+        margin-top: 5px;
+    }
+
+    .distribution .progres {
+        flex-wrap: wrap;
+    }
+
+    .distribution .progres .pp {
+        margin-bottom: 55px;
+        width: 100% !important;
+    }
+
+    .distribution .progres .pp .scale {
+        border-radius: 88px!important;
+    }
+
+    .distribution .progres {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .distribution .progres .info {
+        position: relative;
+        bottom: 16px;
+    }
+
+    .about .left .line  {
+        flex-wrap: wrap;
+
+    }
+
+    .about .left .title br {
+        display: none;
+    }
+
+    .top .key {
+        text-align: center;
+    }
+
+    .ic .left .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .ic .left .b,
+    .code .left .line .t{
+        width: 100%;
+    }
+
+    .code .left .line{
+        flex-wrap: wrap;
+    }
+
+    .code .left .line .f {
+        width: 100%;
+    }
+
+    .ic .right {
+        min-width: 100%;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-left: 30px;
+    }
+
+    .ic .left span.i span span {
+        right: -20px!important;
+        left:auto;
+        width: 154px;
+    }
+
+
+
+    .ic .left span.i span span:after {
+        right: 21px!important;
+        left:auto;
+    }
+
+    .ic .left .ico {
+        line-height: 41px;
+    }
+
+    .top .key,
+    .top .course{
+        width: 100%;
+    }
+
+    .top .course {
+        justify-content: space-between;
+    }
+
+    .about .container .right {
+        margin-top: -50px;
+    }
+
+    .about .left .line .icon {
+        width: 100%;
+        margin-bottom: 90px;
+        text-align: center;
+    }
+
+    .about .left .line .image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .left .line.f .image {
+        left:-21px;
+    }
+
+    .about .left .line .image {
+        left:-10px;
+    }
+
+    .about .left .line.f,
+    .about .left .line.t{
+        margin-bottom: 0;
+    }
+
+    .about .left .line.f .icon:before {
+        display: none;
+    }
+
+    #promo .banner .input input, #promo .banner .input textarea {
+        min-width: 100%;
+    }
+
+}
